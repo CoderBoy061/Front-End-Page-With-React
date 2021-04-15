@@ -1,0 +1,10 @@
+.computerScience{
+    background-color: #E0FFFF;
+    height: 75vh;
+}
+@media (max-width:768px) {
+    .computerScience{
+        background-color: #E0FFFF;
+        height: 204vh;
+    }
+}

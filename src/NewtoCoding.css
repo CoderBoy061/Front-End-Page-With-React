@@ -1,0 +1,18 @@
+.newto_coding{
+    background-color: #FFF0F5;
+    margin-top: -50px;
+    height: 75vh;
+}
+.source-bootcamp{
+    margin-top: 20px;
+}
+.source_heading {
+    margin-top: 20px;
+}
+@media (max-width : 768px) {
+    .newto_coding{
+        background-color: #FFF0F5;
+        margin-top: 21vh;
+        height: 200vh;
+    }
+}

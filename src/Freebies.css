@@ -1,0 +1,23 @@
+.freebies{
+    margin-top: 20px;
+    background-color: #e1f3fc;
+    height: 75vh;
+}
+.source_heading{
+    margin-top: 20px;
+}
+.cards_heading{
+    background-color: white;
+}
+
+@media (max-width: 768px) {
+
+    .freebies{
+    margin-top: 20px;
+   height: 200vh;
+    
+}
+.cards{
+    margin-top : 10px
+}
+}

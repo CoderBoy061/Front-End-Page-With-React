@@ -1,0 +1,29 @@
+.footer_img {
+  margin-left: 20px;
+  height: 40px;
+  width: 150px;
+}
+.footer_navbar{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    margin-top: 2vh;
+    padding: 15px;
+    align-items: center;
+   
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+   justify-content: center;
+}
+
+@media (max-width: 768px) {
+  .footer_img {
+    margin-left: 20px;
+    height: 20px;
+    width: 80px;
+  }
+  
+}

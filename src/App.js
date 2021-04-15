@@ -1,23 +1,42 @@
-import logo from './logo.svg';
+
+import About from './About';
 import './App.css';
+import BootCamp from './BootCamp';
+import ComputerScience from './ComputerScience';
+import CssBootcamp from './CssBootcamp';
+import Footer from './Footer';
+
+import Freebies from './Freebies';
+import Header from './Header';
+import JavaScriptBootCamp from './JavaScriptBootCamp';
+import NewtoCoding from './NewtoCoding';
+import ReactBootcamp from './ReactBootcamp';
+import Section from './Section';
+import Source from './Source';
+import UnderSection from './UnderSection';
+import VueJsBootcamp from './VueJsBootcamp';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header />
+      <Section />
+      <UnderSection />
+      <Source />
+      <BootCamp />
+      <Freebies />
+      <NewtoCoding />
+      <CssBootcamp />
+      <JavaScriptBootCamp />
+      <ReactBootcamp />
+      <ComputerScience />
+      <VueJsBootcamp  />
+      <About />
+      <Footer />
+    
+      {/* <CssBootcamp /> */}
+
+      
     </div>
   );
 }

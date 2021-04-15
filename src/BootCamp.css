@@ -1,0 +1,25 @@
+.bootcamp{
+    background-color: white;
+}
+
+/* .cards_heading {
+    background-color: #F5F5DC;
+} */
+
+@media (max-width:768px) {
+
+    .bootcamp{
+        background-color: white;
+        margin-top: 10vh;
+        /* height: 100vh; */
+        display: flex;
+        flex-direction: column;
+    }
+    .source_heading > h1 {
+        font-size: 30px;
+    }
+    .cards{
+        background-color: white;
+    }
+    
+}

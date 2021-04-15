@@ -1,0 +1,9 @@
+.react_bootcamp{
+    background-color: white;
+}
+
+@media (max-width :768px) {
+    .react_bootcamp{
+        margin-top: 20vh;
+    }
+}

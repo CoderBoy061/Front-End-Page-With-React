@@ -1,0 +1,20 @@
+/* .cards_content_main{
+    background-color: ;
+} */
+/* .source_heading{
+    background-color: violet;
+} */
+.source_cards{
+    background-color: violet;
+    /* background-color: violet; */
+    color: white;
+}
+.cards_heading{
+    background-color: #F0FFFF;
+}
+
+@media (max-width:768px) {
+    .cssBoot_camp{
+        margin-top: 20vh;
+    }
+}
